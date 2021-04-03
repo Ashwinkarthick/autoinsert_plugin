@@ -24,6 +24,8 @@ def skipExtraBp(part, settings):
                     rangeOffset = initPos + (y * tbp)
                     if (rangeOffset <= hi):
                         strand.addInsertion(rangeOffset, -1)
+                        if noi > 1:
+                            strand.addInsertion((rangeOffset+1), -1)    
                         y += 1
                     incr += 1
 # end def

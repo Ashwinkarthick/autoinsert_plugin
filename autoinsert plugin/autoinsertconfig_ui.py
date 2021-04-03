@@ -50,7 +50,7 @@ class Ui_Dialog(object):
         self.numOfInsertionsLabel.setObjectName("numOfInsertionsLabel")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.numOfInsertionsLabel)
         self.numOfInsertionsBox = QtWidgets.QSpinBox(self.layoutWidget)
-        self.numOfInsertionsBox.setMaximum(10000)
+        self.numOfInsertionsBox.setMaximum(100)
         self.numOfInsertionsBox.setProperty("value", 1)
         self.numOfInsertionsBox.setObjectName("numOfInsertionsBox")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.numOfInsertionsBox)

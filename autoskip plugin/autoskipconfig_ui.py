@@ -43,7 +43,7 @@ class Ui_Dialog(object):
         self.numOfSkipLabel.setObjectName("numOfSkipLabel")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.numOfSkipLabel)
         self.numOfSkipBox = QtWidgets.QSpinBox(self.layoutWidget)
-        self.numOfSkipBox.setMaximum(10000)
+        self.numOfSkipBox.setMaximum(2)
         self.numOfSkipBox.setProperty("value", 1)
         self.numOfSkipBox.setObjectName("numOfSkipBox")
         self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.numOfSkipBox)
