@@ -10,3 +10,5 @@ One can also create a symbolic link if preferred.
 The initial code was written by Juhana Kommeri as part of his master thesis "Computer-aided design software for custom nucleic acid nanostructures" in Aalto University (https://aaltodoc.aalto.fi/handle/123456789/23326).
 
 The code was improved with help from Jaishankar Natarajan.
+
+Autoskip plugin is available at https://github.com/Ashwinkarthick/autoskip_plugin
