@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>297</width>
-    <height>264</height>
+    <height>248</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -25,7 +25,7 @@
      <x>10</x>
      <y>0</y>
      <width>276</width>
-     <height>251</height>
+     <height>233</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -69,23 +69,6 @@
        </widget>
       </item>
       <item row="3" column="0">
-       <widget class="QLabel" name="numberofHelicesLabel">
-        <property name="text">
-         <string>helices </string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="QSpinBox" name="helicesBox">
-        <property name="maximum">
-         <number>10000</number>
-        </property>
-        <property name="value">
-         <number>60</number>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="0">
        <widget class="QLabel" name="initialPositionLabel">
         <property name="text">
          <string>min distance from edge</string>
@@ -136,7 +119,6 @@
  <tabstops>
   <tabstop>targetBpbetweenInsertionsBox</tabstop>
   <tabstop>numOfInsertionsBox</tabstop>
-  <tabstop>helicesBox</tabstop>
   <tabstop>initialPositionBox</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
