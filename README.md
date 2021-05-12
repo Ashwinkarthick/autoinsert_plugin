@@ -12,3 +12,12 @@ The initial code was written by Juhana Kommeri as part of his master thesis "Com
 The code was improved with help from Jaishankar Natarajan.
 
 Autoskip plugin is available at https://github.com/Ashwinkarthick/autoskip_plugin
+
+# How to use
+
+The plugin has three options
+1. target bps between insertions - number of base pairs between each insertion site.
+2. number of insertions          - introduces specified number of insertions at every target site
+3. minimum dist from edge        - distance from the initial edge crossover between the first two helices. 
+
+Depending on the number of insertions, the script takes between few seconds to few minutes to run.
