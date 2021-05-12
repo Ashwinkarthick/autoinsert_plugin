@@ -1,1 +1,1 @@
-# autoinsert-delete-plugin
+# autoinsert-plugin
